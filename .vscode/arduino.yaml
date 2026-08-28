@@ -1,0 +1,2 @@
+board: arduino:avr:nano
+configuration: cpu=atmega328

@@ -1,0 +1,23 @@
+# ---- Secrets: never commit ----
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials.json
+secrets.json
+sketch_bkl/src/net/Secrets.h
+
+# ---- Build output ----
+build/
+tests/firmware/build/
+*.bin
+*.elf
+*.map
+
+# ---- Python ----
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
